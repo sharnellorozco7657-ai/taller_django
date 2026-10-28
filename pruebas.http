@@ -1,0 +1,25 @@
+### CREATE (POST)
+POST http://127.0.0.1:8000/api/proyectos/
+Content-Type: application/json
+
+{
+  "nombre": "Demo",
+  "descripcion": "Primer proyecto"
+}
+
+### READ (GET todos)
+GET http://127.0.0.1:8000/api/proyectos/
+
+### READ (GET uno)
+GET http://127.0.0.1:8000/api/proyectos/1/
+
+### UPDATE (PUT)
+PUT http://127.0.0.1:8000/api/proyectos/1/
+Content-Type: application/json
+
+{
+  "nombre": "Demo editado"
+}
+
+### DELETE
+DELETE http://127.0.0.1:8000/api/proyectos/1/
