@@ -29,7 +29,7 @@
 
 Las peticiones están en `pruebas.http`.
 
-![Pruebas CRUD](capturas/crud.png)
+![Pruebas CRUD](capturas/crud_final.png)
 
 ## Fuentes
 
